@@ -1,0 +1,111 @@
+body,
+html{
+    margin: 0;
+}
+.navbar{
+    height: 70px;
+}
+.navbar .nav-link{
+
+    background-color: #ffffff;
+}
+.navbar-brand{
+    font-size: 40px !important;
+    color: #5FCF80 !important;
+}
+.nav-link{
+    text-align: center;
+    width: 125px !important;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.nav-link:hover{
+    color:  #5FCF80 ;
+    background-color: rgb(243, 228, 215);
+}
+.banner{
+   background-image:url("bg-code-banner.jpg");
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+   min-height: 430px; 
+}
+.banner-text{
+    color: ivory;
+}
+h2{
+    border-color: #5FCF80;
+    display: inline-block;
+    padding: 15px;
+}
+/********features***************************************/
+.heading{
+    text-align: center;
+    margin-top: 10px;
+}
+.heading p
+{
+    text-align: center !important;
+}
+
+/************Pricing*****************************************************/
+.price-table {
+    box-shadow: 0px 0px 1px 0px RGBA(0, 0, 0, 0.4);
+    position: relative;
+}
+.price-table .pricing-head {
+    background: #fff;
+    padding: 40px;
+    text-align: center;
+}
+.price-table .pricing-head h4 {
+    font-size: 22px;
+    color: #232c3b;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #232c3b;
+    padding-bottom: 20px;
+}
+.pricing-head .amount {
+    font-size: 60px;
+    font-weight: bold;
+}
+.pricing-head .curency {
+    display: inline-block;
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+}
+.pruchase-tag {
+    background: #fff;
+    text-align: center;
+}
+.btn {
+    padding: 15px 20px;
+}
+.btn-bg {
+    border: 0px;
+    border-radius: 0px;
+    color: #fff !important;
+    padding: 20px 0px;
+    font-weight: bold !important;
+    font-size: 14px;
+    background-color: #5FCF80;
+}
+.section-padding{
+	padding: 60px 0;
+}
+
+/***************************** Upcoming Workshop*********************/
+.upcoming{
+    /* background-color: #e7dddd; */
+}
+
+/* *********************footer************************************************************* */
+.footer {
+    padding: 15px 0 1px;
+    background: #fff;
+    color: #232c3b;
+}
